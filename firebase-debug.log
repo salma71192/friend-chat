@@ -39,3 +39,58 @@
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-03-12T18:30:04.038Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-03-12T18:30:04.417Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-03-12T18:31:51.934Z] ----------------------------------------------------------------------
+[debug] [2018-03-12T18:31:51.934Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saqr\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-12T18:31:51.934Z] CLI Version:   3.17.6
+[debug] [2018-03-12T18:31:51.950Z] Platform:      win32
+[debug] [2018-03-12T18:31:51.950Z] Node Version:  v8.9.4
+[debug] [2018-03-12T18:31:51.950Z] Time:          Mon Mar 12 2018 20:31:51 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T18:31:51.950Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-12T18:31:52.059Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-12T18:31:52.059Z] > authorizing via signed-in user
+[debug] [2018-03-12T18:31:52.075Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-12T18:31:52.075Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ji1nIRMrvhtrAZv8uIPBYU3YkY69CISkD4FZhxRevmg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Mar 12 2018 20:31:52 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T18:31:53.769Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T18:31:53.844Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/salma-friend-chat  
+  
+ Mon Mar 12 2018 20:31:53 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T18:31:55.812Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T18:31:55.816Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/salma-friend-chat/tokens  
+  
+ Mon Mar 12 2018 20:31:55 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T18:31:56.953Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T18:31:56.956Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/salma-friend-chat  
+  
+ Mon Mar 12 2018 20:31:56 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T18:32:00.991Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\saqr\Downloads\Compressed\web-start'...
+[info] 
+[debug] [2018-03-12T18:32:01.000Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/277571438128/clients/_:getWebAppConfig  
+  
+ Mon Mar 12 2018 20:32:01 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T18:32:03.491Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
