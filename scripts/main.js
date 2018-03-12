@@ -119,7 +119,11 @@ FriendlyChat.prototype.signIn = function() {
   this.auth.signInWithPopup(provider);
 };
 
-
+// Signs-out of Friendly Chat.
+FriendlyChat.prototype.signOut = function() {
+  // Sign out of Firebase.
+  this.auth.signOut();
+};
 
 // Triggers when the auth state change for instance when the user signs-in or signs-out.
 FriendlyChat.prototype.onAuthStateChanged = function(user) {
