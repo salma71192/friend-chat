@@ -1,0 +1,41 @@
+[debug] [2018-03-12T13:23:33.670Z] ----------------------------------------------------------------------
+[debug] [2018-03-12T13:23:33.686Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saqr\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-12T13:23:33.686Z] CLI Version:   3.17.6
+[debug] [2018-03-12T13:23:33.686Z] Platform:      win32
+[debug] [2018-03-12T13:23:33.686Z] Node Version:  v8.9.4
+[debug] [2018-03-12T13:23:33.686Z] Time:          Mon Mar 12 2018 15:23:33 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T13:23:33.686Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-12T13:23:33.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-12T13:23:33.822Z] > authorizing via signed-in user
+[debug] [2018-03-12T13:23:33.842Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-12T13:23:33.844Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ji1nIRMrvhtrAZv8uIPBYU3YkY69CISkD4FZhxRevmg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Mar 12 2018 15:23:33 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T13:23:36.066Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T13:23:36.133Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/salma-friend-chat  
+  
+ Mon Mar 12 2018 15:23:36 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T13:23:38.077Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T13:23:38.077Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/salma-friend-chat/tokens  
+  
+ Mon Mar 12 2018 15:23:38 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T13:23:39.936Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T13:23:39.936Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/salma-friend-chat  
+  
+ Mon Mar 12 2018 15:23:39 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T13:23:43.822Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\saqr\Downloads\Compressed\web-start'...
+[info] 
+[debug] [2018-03-12T13:23:43.837Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/277571438128/clients/_:getWebAppConfig  
+  
+ Mon Mar 12 2018 15:23:43 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-12T13:23:47.500Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
